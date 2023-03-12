@@ -58,24 +58,6 @@ jobs:
       - aws-cli/setup
       - checkout
       - run:
-          name: Install API Dependencies
-          command: |
-           npm run api:install
-      - run:
-          name: Install Frontend Dependencies
-          command: |
-           npm run frontend:install
-      - run:
-          name: Front-End Build
-          command: |
-            echo "npm run frontend:build"
-            npm run frontend:build
-      - run:
-          name: API Build
-          command: |
-            echo "npm run api:build"
-            npm run api:build
-      - run:
           name: Deploy App
           # TODO: Install, build, deploy in both apps
           command: |
@@ -90,7 +72,7 @@ workflows:
           filters:
             branches:
               only:
-                - master
+                - main
           type: approval
           requires:
             - build
