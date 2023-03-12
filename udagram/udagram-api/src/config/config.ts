@@ -13,6 +13,8 @@ export const config = {
   host: process.env.POSTGRES_HOST,
   aws_region: process.env.AWS_REGION,
   aws_profile: process.env.AWS_PROFILE,
+  accessKeyId : process.env.AWS_ACCESS_KEY_ID,
+  secretAccessKey : process.env.AWS_SECRET_ACCESS_KEY,
   aws_media_bucket: process.env.AWS_BUCKET,
   url: process.env.URL,
   jwt: {
