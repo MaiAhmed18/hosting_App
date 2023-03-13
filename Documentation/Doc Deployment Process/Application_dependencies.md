@@ -20,7 +20,7 @@ RDS - Database Port: 5432
 
 RDS - Database Name: postgres
 
-S3 Endpoint - Frontend: https://hostingppbucket.s3.amazonaws.com/
+S3 Endpoint - Frontend: https://hostingppbucket.s3.amazonaws.com/home
 
 Elastic Beanstalk URL - Backend: http://udagram-api-dev.us-east-1.elasticbeanstalk.com/
 
@@ -36,3 +36,6 @@ Setup the following variables in the set_env.sh file or in the cloud environment
 - AWS_BUCKET          = <Bucket_Name>
 - JWT_SECRET          = <your secret>
 - URL                 = <Url>
+- AWS_ACCESS_KEY_ID   = <AWS_ACCESS_KEY_ID>
+- AWS_SECRET_ACCESS_KEY = <AWS_SECRET_ACCESS_KEY>
+- AWS_DEFAULT_REGION  = <AWS_DEFAULT_REGION>
