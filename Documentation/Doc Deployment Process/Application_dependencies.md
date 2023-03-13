@@ -20,7 +20,7 @@ RDS - Database Port: 5432
 
 RDS - Database Name: postgres
 
-S3 Endpoint - Frontend: https://hostingppbucket.s3.amazonaws.com/index.html
+S3 Endpoint - Frontend: http://hostingppbucket.s3.amazonaws.com/index.html
 
 Elastic Beanstalk URL - Backend: http://udagram-api-dev.us-east-1.elasticbeanstalk.com/
 
